@@ -11,8 +11,12 @@ for num in numbers:
         
 print(list_of_evens)
 
-# 2. Print the difference between the largest and smallest value:
 
+# 2. Print the difference between the largest and smallest value:
+maximum = max(numbers)
+minimum = min(numbers)
+difference = maximum -  minimum
+print(difference)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
